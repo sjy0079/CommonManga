@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/titleContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <org.bbs.commonmanga.widgets.CMArrowIcon
+            android:id="@+id/backBtn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:padding="4dp"
+            android:rotation="180"
+            app:cmIconColor="?attr/cmTextMainColor" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/titleTv"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingStart="60dp"
+            android:paddingEnd="60dp"
+            android:textColor="?attr/cmTextMainColor"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Test Manga Title" />
+
+        <FrameLayout
+            android:id="@+id/titleRightContainer"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end" />
+
+    </FrameLayout>
+
+
+    <View
+        android:id="@+id/titleShadow"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@drawable/cm_title_bar_shadow" />
+
+</LinearLayout>

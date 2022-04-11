@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="cmOpacityBgColor" format="color" />
+    <attr name="cmOpacityStrokeColor" format="color" />
+    <attr name="cmMaskColor" format="color" />
+    <attr name="cmMaskColorRev" format="color" />
+    <attr name="cmTextMainColor" format="color" />
+    <attr name="cmTextSubColor" format="color" />
+
+    <declare-styleable name="CMBaseIcon">
+        <attr name="cmIconColor" format="color|string" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.CommonManga" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/main_green</item>
+        <item name="colorPrimaryVariant">@color/main_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/main_orange_light</item>
+        <item name="colorSecondaryVariant">@color/main_orange</item>
+        <item name="colorOnSecondary">@color/cm_background</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+<!--        <item name="android:windowLightStatusBar">true</item>-->
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:textAllCaps">false</item>
+
+        <item name="cmOpacityBgColor">@color/cm_opacity_bg_black</item>
+        <item name="cmOpacityStrokeColor">@color/cm_opacity_stroke_black</item>
+        <item name="cmMaskColor">@color/cm_mask_black</item>
+        <item name="cmMaskColorRev">@color/cm_mask_white</item>
+        <item name="cmTextMainColor">@color/black</item>
+        <item name="cmTextSubColor">@color/mid_black</item>
+    </style>
+</resources>

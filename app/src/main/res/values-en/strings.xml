@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cm_search">Search</string>
+    <string name="cm_common_error">Something error happend</string>
+    <string name="cm_manga_detail_fav">Favorite</string>
+    <string name="cm_manga_detail_continue">Continue</string>
+    <string name="cm_manga_detail_dislike">Dislike</string>
+    <string name="cm_common_retry">Loading failed, please click to refresh</string>
+</resources>

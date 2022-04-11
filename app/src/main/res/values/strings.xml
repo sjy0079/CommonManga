@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Common Manga</string>
+    <string name="cm_search">搜索</string>
+    <string name="cm_common_error">发生了错误</string>
+    <string name="cm_manga_detail_fav">收藏漫画</string>
+    <string name="cm_manga_detail_continue">继续阅读</string>
+    <string name="cm_manga_detail_dislike">取消收藏</string>
+    <string name="cm_common_retry">加载失败，请点击重试</string>
+</resources>
